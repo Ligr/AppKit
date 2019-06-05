@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIImage {
+public extension UIImage {
 
     func imageWithOffset(_ offset: CGFloat) -> UIImage {
         UIGraphicsBeginImageContext(CGSize(width: self.size.width + offset, height: self.size.height))

@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UILabel {
+public extension UILabel {
 
     func setText(_ text: String?, lineHeight height: CGFloat) {
         guard let text = text else {

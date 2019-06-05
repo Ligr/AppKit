@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension KeyedDecodingContainer {
+public extension KeyedDecodingContainer {
 
     func decode<Type: Decodable>(_ key: KeyedDecodingContainer.Key) throws -> Type {
         return try decode(Type.self, forKey: key)

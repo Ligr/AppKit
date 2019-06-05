@@ -8,7 +8,7 @@
 import UIKit
 
 @available(iOS 10.0, *)
-extension UIImage {
+public extension UIImage {
 
     func imageWithColor(_ color: UIColor) -> UIImage {
         let renderer = UIGraphicsImageRenderer(size: size)

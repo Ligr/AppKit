@@ -4,7 +4,7 @@
 
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
 
     func dismissModals(animated: Bool, callback: @escaping () -> Void) {
         guard let controller = self.presentedViewController else {

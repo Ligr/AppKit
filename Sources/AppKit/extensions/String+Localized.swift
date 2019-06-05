@@ -4,7 +4,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
 	
 	var localized: String {
         return NSLocalizedString(self, comment: "")

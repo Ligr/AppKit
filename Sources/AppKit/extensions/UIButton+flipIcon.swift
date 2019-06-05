@@ -4,7 +4,7 @@
 
 import UIKit
 
-extension UIButton {
+public extension UIButton {
 
     @IBInspectable var flipIcon: Bool {
         get {

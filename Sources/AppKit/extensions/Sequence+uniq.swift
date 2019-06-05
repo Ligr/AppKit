@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Sequence where Element: Equatable {
+public extension Sequence where Element: Equatable {
 
     func uniqElements() -> [Element] {
         var uniq = [Element]()
@@ -21,7 +21,7 @@ extension Sequence where Element: Equatable {
 
 }
 
-extension Sequence where Element: Equatable & Hashable {
+public extension Sequence where Element: Equatable & Hashable {
 
     func uniqElements() -> [Element] {
         var uniq = [Element]()

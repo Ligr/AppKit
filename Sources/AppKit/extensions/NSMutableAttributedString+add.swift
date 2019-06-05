@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension NSMutableAttributedString {
+public extension NSMutableAttributedString {
 
     func addAttributes(_ attributes: [NSAttributedString.Key : Any], to str: String) {
         guard let range = self.string.range(of: str) else {

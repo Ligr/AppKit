@@ -5,11 +5,15 @@ import PackageDescription
 
 let package = Package(
     name: "AppKit",
+    platforms: [.iOS(.v11)],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
             name: "AppKit",
             targets: ["AppKit"]),
+        .library(
+            name: "Switch",
+            targets: ["Switch"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -21,6 +25,9 @@ let package = Package(
         .target(
             name: "AppKit",
             dependencies: []),
+        .target(
+            name: "Switch",
+            dependencies: [._targetItem(name: "AppKit")]),
         .testTarget(
             name: "AppKitTests",
             dependencies: ["AppKit"]),

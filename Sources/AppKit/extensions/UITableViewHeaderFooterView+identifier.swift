@@ -4,7 +4,7 @@
 
 import UIKit
 
-extension UITableViewHeaderFooterView {
+public extension UITableViewHeaderFooterView {
 
     static var identifier: String {
         return String(describing: self)

@@ -4,7 +4,7 @@
 
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
 
     func presentModally(animated: Bool = true, completion: (() -> Void)? = nil) {
         let window = UIWindow(frame: UIScreen.main.bounds)

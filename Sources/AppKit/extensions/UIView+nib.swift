@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
 
     public class func fromNib() -> Self {
         return fromNib(nibName: nil)

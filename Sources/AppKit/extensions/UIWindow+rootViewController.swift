@@ -4,7 +4,7 @@
 
 import UIKit
 
-extension UIWindow {
+public extension UIWindow {
 
     func setRootViewController(_ controller: UIViewController, animated: Bool, completion: ((Bool) -> Void)?) {
         let present = { [weak self] in

@@ -4,7 +4,7 @@
 
 import UIKit
 
-extension UINavigationItem {
+public extension UINavigationItem {
 
     var backBarButtonTitle: String? {
         get {

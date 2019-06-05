@@ -5,7 +5,7 @@
 import UIKit
 
 @available(iOS 9.0, *)
-extension UIStackView {
+public extension UIStackView {
 
     func removeAll() {
         for view in arrangedSubviews {

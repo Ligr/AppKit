@@ -4,7 +4,7 @@
 
 import UIKit
 
-extension UITableView {
+public extension UITableView {
 
     func registerNibForCell<T: UITableViewCell>(_ cell: T.Type) {
         let nib = UINib(nibName: String(describing: cell), bundle: nil)

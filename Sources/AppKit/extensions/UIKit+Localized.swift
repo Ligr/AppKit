@@ -4,7 +4,7 @@
 
 import UIKit
 
-extension UIButton {
+public extension UIButton {
 
     @IBInspectable var localizedTitle: String? {
         set {
@@ -17,7 +17,7 @@ extension UIButton {
 
 }
 
-extension UILabel {
+public extension UILabel {
 
     @IBInspectable var localizedTitle: String? {
         set {
@@ -30,7 +30,7 @@ extension UILabel {
 
 }
 
-extension UITextView {
+public extension UITextView {
 
     @IBInspectable var localizedText: String? {
         set {
@@ -43,7 +43,7 @@ extension UITextView {
 
 }
 
-extension UITextField {
+public extension UITextField {
 
     @IBInspectable var localizedText: String? {
         set {

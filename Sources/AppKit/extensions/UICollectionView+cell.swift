@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UICollectionView {
+public extension UICollectionView {
 
     func registerNibForCell<T: UICollectionViewCell>(_ cell: T.Type) {
         registerNibForCell(cell, withIdentifier: cell.identifier)

@@ -8,7 +8,7 @@
 import UIKit
 
 @available(iOS 9.0, *)
-extension UIStackView {
+public extension UIStackView {
 
     func addArrangedSubviews(_ views: [UIView]) {
         for view in views {
