@@ -27,7 +27,7 @@ let package = Package(
             dependencies: []),
         .target(
             name: "Switch",
-            dependencies: [._targetItem(name: "AppKit")]),
+            dependencies: ["AppKit"]),
         .testTarget(
             name: "AppKitTests",
             dependencies: ["AppKit"]),
